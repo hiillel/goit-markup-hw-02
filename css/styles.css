@@ -10,7 +10,10 @@ a {
     text-decoration: none;
 }
 
-.header-logo {
+/* header */
+
+.header-logo,
+.footer-logo {
     color: #2E2F42;
     font-family: Raleway;
     font-size: 18px;
@@ -20,7 +23,8 @@ a {
     text-transform: uppercase;
 }
 
-.header-logo-color {
+.header-logo-color,
+.footer-logo-color {
     color: #4D5AE5;
     font-family: Raleway;
     font-size: 18px;
@@ -30,11 +34,106 @@ a {
     text-transform: uppercase;
 }
 
-.header-menu-item {
+.header-menu-link {
     color: #2E2F42;
-    font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+.header-address-link {
+    color: #434455;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+/* main */
+/* section 1 - order */
+.order {
+    background: var(--NAVY-BLUE, #2E2F42);
+}
+
+.order-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+}
+
+.order-button {
+    border-radius: 4px;
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.order-button-text {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+}
+
+/* section 2 - features */
+
+.features-title {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+
+.features-description {
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+/* section 3 - team */
+
+.team-title {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+.team-name {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+
+.team-position {
+    color: #434455;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+/* footer */
+
+.footer-text {
+    color: #F4F4FD;
+    font-size: 16px;
+    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.32px;
 }
