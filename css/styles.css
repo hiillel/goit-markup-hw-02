@@ -1,10 +1,40 @@
 body {
-    background-color: lightgreen;
-    color: white;
-    font-family: sans-serif;
-    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
 }
 
-h1 {
-    text-align: center;
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-logo {
+    color: #2E2F42;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.header-logo-color {
+    color: #4D5AE5;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.header-menu-item {
+    color: #2E2F42;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
 }
