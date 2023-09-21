@@ -70,7 +70,7 @@ a {
 /* main */
 /* section 1 - order */
 .order {
-    background: var(--NAVY-BLUE, #2E2F42);
+    background: #2E2F42;
 }
 
 .order-title {
@@ -83,9 +83,7 @@ a {
 }
 
 .order-button {
-    border-radius: 4px;
     background: #4D5AE5;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -187,7 +185,6 @@ a {
 
 .portfolio-text {
     color: #434455;
-
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
