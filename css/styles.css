@@ -42,7 +42,8 @@ a {
     letter-spacing: 0.32px;
 }
 
-.header-menu-link:hover {
+.header-menu-link:hover,
+.header-menu-link:focus {
     color: #404bbf;
 }
 
